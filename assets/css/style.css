@@ -496,7 +496,7 @@ header nav ul .active{
     100% { transform: translateX(0%);}
 }
 @keyframes right-article{
-    0%{transform:translateX(100%);}
+    0%{transform:translateX(42%);}
     100%{transform:translateX(0%);}
 }
 /* end autor */
