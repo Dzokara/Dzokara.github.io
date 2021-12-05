@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Reservations</title>
+		<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="Catch of the Day, Grocka, Rezervacije, Kontakt, Telefon" />
+		<meta name="description" content="Ovde možete da rezervišete sto u bilo kojem od naših restorana i uživati u najboljoj morskoj hrani! " />
+		<link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" />
+		<!-- Font css -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+		<!-- WebIcon css -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+		<!-- Template css -->
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+        <body>
+            <!-- nav -->
+            <header>
+                    <div class="center-block">
+                        
+                        <div id="logo">
+                            <a href="index.html"><img src="assets/images/logo1.png" alt="logo" /></a>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="menu.html">Menu</a></li>
+                                <li><a href="reservations.html" class="active">Reservations</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="author.html">Author</a></li>
+                            </ul>
+                        </nav>
+                        <div class="cleaner"></div>
+                </div>
+        </header>
+        <!-- div sa bg slikom -->
+        <div id="reservationsbg" class="bg-image">
+            <div class="shadow">
+                <h1>Reservations</h1>
+                <h2>We enjoy your company!</h2>
+            </div>
+        </div>
+        <!-- form -->
+        <div class="center-block">
+            <form action="rezervacije.php" method="POST" name="form1" id="form1">
+                <div class="form-row">
+                    <div class="form-col">
+                        <input type="text" id="fname" name="fname" required="required" placeholder="First name: "/>
+                    </div>
+                    <div class="form-col">
+                        <input type="text" id="lname" name="lname" required="required" placeholder="Last name: "/>
+                    </div>
+                    <div class="cleaner"></div>
+                </div>
+                <div class="form-row">
+                    <select name="pplNumber" id="pplNumber">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                      </select>
+                </div>
+                <div class="form-row">
+                    <input type="date" id="rDate" name="rDate" required="required"/>   
+                </div>
+                <div class="form-row">
+                    <input type="time" id="rTime" name="rTime" required="required"/>
+                </div>
+                <div class="form-row">
+                    <textarea id="ps" name="ps" rows="4" cols="50" placeholder="Tell us something you'd like us to know about your reservation.."></textarea>
+                </div>
+                <div class="form-row">
+                    <input type="submit" id="btnSub" name="btnSub" value="RESERVE" />
+                </div>
+              </form>
+              <div id="contact-row">
+                  <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Zdravka Čelara 16, Beograd</p>
+                  </div>
+                  <div>
+                    <a href="tel:+381621234567">
+                        <i class="fas fa-phone"></i>
+                        <p>+381 62 123-4567</p>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="mailto:catchoftheday@catchoftheday.rs">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p>catchoftheday@catchoftheday.rs</p>
+                    </a>
+                  </div>
+                  <div class="cleaner"></div>
+              </div>
+        </div>
+        <!-- footer -->
+            <footer>
+                <div class="center-block">
+                        <ul class="footersocial">
+                            <li><a href="#"><i class="fab fa-facebook socialicons" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram socialicons" aria-hidden="true"></i></a></li>
+                        </ul>
+                    <div id="footermid">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="menu.html">Menu</a></li>
+                                <li><a href="reservations.html">Reservations</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="author.html">Author</a></li>
+                            </ul>
+                        </nav>
+                        <div id="copyright">
+                            <p>
+                                All rights reserved &copy; 2021 Visoka ICT Škola 
+                            </p>
+                        </div>
+                    </div>
+                        <ul class="footersocial posright">
+                            <li><a href="#"><i class="fas fa-rss socialicons" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fas fa-sitemap socialicons" aria-hidden="true"></a></i></li>
+                        </ul>
+                        <div class="cleaner"></div>
+                    
+                </div>
+        </footer>
+    </body>
+</html>

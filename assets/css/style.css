@@ -1,0 +1,559 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+body{
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E7ECEF;
+}
+.cleaner{
+    clear:both;
+}
+.center-block{
+    width:90%;
+    margin: 0px auto;
+}
+/* start header */
+header{
+    width:100%;
+    background:#274C77;
+}
+header nav{
+    width:80%;
+    float:left;
+}
+#logo{
+    width:20%;
+    float:left;
+}
+#logo img{
+    height:100px;
+    margin-top:0px;
+    margin-left:50px;
+}
+header nav ul{
+    text-align: right;
+}
+header nav ul li{
+    display:inline-block;
+    line-height: 100px;
+    margin-right:40px;
+}
+header nav ul li a{
+    font-size:20px;
+    color:white;
+    text-transform: uppercase;
+}
+header nav ul li a:hover{
+    color:#8B8C89;
+}
+header nav ul .active{
+    font-weight: bold;
+}
+
+/* end header */
+/* start div sa bg slikom */
+.bg-image{
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* bg svih strana */
+#indexbg{
+    background-image: url(../images/bgindex.jpg);
+}
+#gallerybg{
+    background-image: url(../images/bg-gallery.jpg);
+}
+#aboutbg{
+    background-image:url(../images/bgonama.jpg);
+}
+#menubg{
+    background-image: url(../images/bg-menu.jpg);
+}
+#reservationsbg{
+    background-image: url(../images/reservationsbg.jpg);
+}
+/* end bg svih strana */
+.shadow{
+    background:rgba(0,0,0,0.6);
+    width:100%;
+    height: inherit;
+    padding: 21% 0%;
+    padding-top:15%;
+    text-align:center;
+    font-style: italic;
+    color:white;
+}
+.shadow h1{
+    font-size: 120px;
+    animation: anim 1.5s;
+}
+.shadow h2{
+    font-weight:400;
+    font-size:50px;
+    animation: anim 2s;
+}
+@keyframes anim{
+    0%{opacity:0; color:#274C77;}
+    100%{opacity:1; color:white;}
+}
+/* end div sa bg slikom  */
+/* content index */
+#indexwrap1{
+    text-align: center;
+    padding:100px;
+}
+#indexwrap1 h2{
+    font-size: 44px;
+    margin-bottom:20px;
+    color:#6096BA;
+}
+#indexwrap1 p{
+    font-size:21px;
+    font-weight: 300;
+    line-height:1.5;
+    width:70%;
+    margin:0px auto;
+}
+#indexwrap1 p span{
+    font-weight: bold;
+    color:#6096BA;
+}
+#indexwrap1 p a{
+    color:#6096BA;
+}
+#indexwrap1 article{
+    float:left;
+    width:30%;
+}
+#indexwrap1 article h3{
+    margin-bottom:3%;
+    font-size:35px;
+    color:#6096BA;
+}
+#indexwrap1 article p{
+    font-size:18px;
+}
+#indexwrap1 article img{
+    margin-left:8%;
+}
+.small-image{
+    width:90%;
+}
+#article-right img{
+    margin-top:35%;
+}
+#article-right h3{
+    margin-top:22%;
+}
+#article-middle{
+    margin:0 5%;
+}
+.txt-btn{
+	border-radius:8px;
+	border:1px solid #6096BA;
+	display:inline-block;
+	cursor:pointer;
+	font-size:23px;
+    color:#6096BA;
+	padding:12px 37px;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+    margin:40px 0;
+}
+/* workhours image */
+#bg-workhours{
+    width:100%;
+    background-image: url(../images/bgsati.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#shadow-workhours{
+    background:rgba(0,0,0,0.7);
+    width:100%;
+    height: inherit;
+    padding:4% 0%;
+    text-align:center;
+    margin-bottom:5%;
+}
+#shadow-workhours h2{
+    color:white;
+    letter-spacing: 5px;
+    margin-bottom:20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.underline{
+    width:175px;
+    margin:0 auto;
+}
+#shadow-workhours section article{
+    float:left;
+    margin-top:15%;
+    width:45%;
+    color:white;
+}
+#shadow-workhours article h3{
+    font-size:38px;
+    margin-bottom:3%;
+    font-style:italic;
+    font-weight:bolder;
+    line-height:48px;
+}
+#shadow-workhours article p{
+    font-size:26px;
+    color:#6096BA;
+    font-weight:bold;
+}
+#shadow-workhours section article:nth-child(2){
+    width:0.2%;
+    margin:5% 4.9%;
+    margin-bottom: 0%;
+    background-color:white;
+    height:500px;
+    border-radius:2px;
+}
+.center{
+    margin:0px auto;
+}
+/* content index 2 */
+#indexwrap2 article{
+    width:50%;
+    float:left;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#indexwrap2 article div{
+    width:100%;
+    height:350px;
+    padding-top:80px;
+}
+.small-bg{
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:0.9;
+}
+#shrimp-image{
+    background-image: url(../images/shrimp-image.jpg);
+    background-position: center;
+}
+#party-image{
+    background-image: url(../images/party-image.jpg);
+}
+.text-block h2, .text-block h1{
+    font-size:40px;
+    letter-spacing:5px;
+    text-transform: uppercase;
+    margin-bottom:30px;
+    color:#6096BA;
+}
+.text-block p{
+    font-size: 20px;
+    margin:0 90px;
+}
+/* end index content */
+/* menu content */
+#menu-block{
+    width:90%;
+    margin:80px auto;
+    border-radius: 20px;
+    background-color: white;
+    padding:100px 0;
+}
+#menu-block article{
+    width:30%;
+    float:left;
+    text-align:center;
+}
+#menu-block article:nth-child(3){
+    margin:0 3%;
+}
+#menu-block article div{
+    width:80%;
+    margin:0 auto;
+}
+#menu-block img{
+    width:50%;
+    margin-top:30px;
+}
+.menu-border{
+    border-top: 6px dotted #274C77;
+    width:350px;
+    margin:20px auto;
+}
+#menu-block .vl{
+    width:1%;
+}
+.left-dotted{
+    border-left: 6px dotted #274C77;
+    height: 950px;
+}
+#menu-block h2{
+    color:#6096BA;
+    font-size:38px;
+    text-transform: uppercase;
+    margin:15px 0;
+}
+#menu-block p{
+    font-size:18px;
+    text-transform: uppercase;
+    word-spacing:4px;
+}
+.price{
+    color:#6096BA;
+    font-size:17px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom:15px;
+}
+/* end menu */
+/* rezervacije form */
+#form1{
+    width:60%;
+    margin:15px auto;
+    margin-bottom: 60px;
+    padding:20px 0;
+}
+#form1 input,select,textarea{
+    width:85%;
+    margin-top:5px;
+    padding:10px;
+    border-radius: 7px;
+    font-size: 20px;
+    border:1px solid #6096BA;
+    outline: none;
+}
+.form-row{
+    width:100%;
+}
+.form-col{
+    width:50%;
+    float:left;
+    text-align: center;
+}
+#form1 select{
+    width:94.5%;
+    margin-top:20px;
+    margin-left:2.75%;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-size:24px;
+    background-position: 98.7% 50%;
+    background-image:url(../images/ljudi-rezervacija.png);
+}
+#form1 input[type="date"], #form1 input[type="time"], #form1 textarea{
+    width:92.5%;
+    margin-left:2.75%;
+    margin-top:20px; 
+}
+#form1 textarea{
+    height:225px;
+}
+#form1 input[type="submit"]{
+    width:20%;
+    margin:0 40%;
+    margin-top:20px;
+	border:1px solid #6096BA;
+	display:inline-block;
+	cursor:pointer;
+    font-weight: bold;
+    color:#6096BA;
+    transition: .2s ease-in-out;
+    letter-spacing: 1.8px;
+}
+#form1 input[type="submit"]:hover, .txt-btn:hover{
+    background-color:#274C77;
+    color:white;
+    transform:scale(1.1);
+}
+#contact-row{
+    width:100%;
+    height:100px;
+}
+#contact-row div{
+    float:left;
+    width:20%;
+    text-align: center;
+}
+#contact-row div i{
+    font-size:25px;
+    color:#6096BA;
+}
+#contact-row div a{
+    color:black;
+}
+#contact-row div:nth-child(1){
+    margin-left:20%;
+}
+/* end rezervacije */
+/* About content */
+#about-block{
+    width:85%;
+    margin:80px auto;
+    text-align: center;
+}
+#about-block article{
+    float:left;
+    width:45%;
+    padding:0px 2.5%;
+}
+#about-block article img{
+    width:90%;
+    border-radius:8px;
+    margin:0px 5%;
+}
+#about-block article div{
+    height:450px;
+}
+#about-block article .text-block{
+    padding-top:130px;
+    box-sizing: border-box;
+}
+/* end about */
+/* Gallery strana */
+#gallery-block{
+    width:70%;
+    margin:80px auto;
+}
+.gallery-row{
+    width:100%;
+}
+#gallery-block .gallery-row:nth-child(1){
+    margin-bottom:5%;
+}
+.gallery-row img:nth-child(1){
+    margin-left:10.5%;
+}
+.gallery-row img:nth-child(2){
+    margin:0 5%;
+}
+.gallery-image{
+    width:23%;
+    float:left;
+    border-radius:8px;
+    transition:0.2s ease-in-out;
+}
+.gallery-image:hover{
+    transform: scale(1.1);
+}
+/* end gallery */
+/* autor content */
+#author-wrap{
+    width:70%;
+    margin:0px auto;
+}
+.author-article{
+    float:left;
+    width:50%;
+    margin-bottom:70px;
+    margin-top:40px;
+    text-align: center;
+    animation: right-article 2s;
+}
+.author-article:first-of-type{
+    padding-top:100px;
+    animation: left-article 2s;
+}
+.author-article img{
+    width:68%;
+    border-radius:15px;
+    float:left;
+    margin-left: 100px;
+}
+#author-header{
+    font-size:36px;
+    text-align: center;
+    margin-top:50px;
+}
+.author-article h2, #author-header{
+    color:#274C77;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.author-article h2{
+    font-size:26px;
+}
+.author-article p{
+    font-size:20px;
+    margin-bottom:30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.author-article p:last-of-type{
+    width:400px;
+    margin:0px auto;
+}
+@keyframes left-article{
+    0%{transform: translateX(-100%);}
+    100% { transform: translateX(0%);}
+}
+@keyframes right-article{
+    0%{transform:translateX(100%);}
+    100%{transform:translateX(0%);}
+}
+/* end autor */
+/* start footer */
+footer{
+    width:100%;
+    background-color: #274C77;
+    padding-top:35px;
+  }
+.footersocial{
+    width:30%;
+    float:left;
+}
+
+.footersocial li{
+    display:inline-block;
+    margin-top:35px;
+    margin-bottom: 20px;
+    padding-right:20px;
+}
+.socialicons{
+    color:white;
+    font-size: 24px;
+}
+.fa-facebook:hover, .fa-rss:hover , .fa-sitemap:hover , .fa-instagram:hover {
+    color:#8B8C89;
+}
+#footermid{
+    width:40%;
+    float:left;
+    text-align: center;
+}
+#footermid ul{
+    border-bottom: 1px solid white;
+}
+#footermid li{
+    display:inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#footermid li a{
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    margin:0 10px;
+    text-transform: uppercase;
+}
+#footermid li a:hover{
+    color:#8B8C89;
+}
+.posright{
+    text-align: right;
+}
+#copyright{
+    color:white;
+    margin-top:20px;
+    margin-bottom: 10px;
+    font-size:15px;
+}
+/* end footer */
