@@ -421,7 +421,7 @@ header nav ul .active{
 /* end about */
 /* Gallery strana */
 #gallery-block{
-    width:70%;
+    width:54%;
     margin:80px auto;
 }
 .gallery-row{
@@ -430,14 +430,11 @@ header nav ul .active{
 #gallery-block .gallery-row:nth-child(1){
     margin-bottom:5%;
 }
-.gallery-row img:nth-child(1){
-    margin-left:10.5%;
-}
-.gallery-row img:nth-child(2){
-    margin:0 5%;
+.middle{
+    margin:0px 5%;
 }
 .gallery-image{
-    width:23%;
+    width:30%;
     float:left;
     border-radius:8px;
     transition:0.2s ease-in-out;
