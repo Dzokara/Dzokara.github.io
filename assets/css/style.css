@@ -93,7 +93,7 @@ header nav ul .active{
     font-size: 120px;
     animation: anim 1.5s;
 }
-.shadow h2{
+.shadow p{
     font-weight:400;
     font-size:50px;
     animation: anim 2s;
