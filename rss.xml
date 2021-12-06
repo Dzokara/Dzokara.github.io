@@ -1,17 +1,17 @@
 <rss version="2.0">
     <channel>
-        <title>Catch of the Day - restoran</title>
+        <title>Catch of the Day - restaurant</title>
         <link>https://dzokara.github.io/index.html</link>
-        <description>Informacije o budućim događajima u restoranu.</description>
+        <description>Informations about the restuarant.</description>
         <item>
-            <title>Meni</title>
+            <title>Menu</title>
             <link>https://dzokara.github.io/menu.html</link>
-            <description>Informacije o našim specijalitetima i njihovim cenama.</description>
+            <description>Informations about our menu and the dish prices.</description>
         </item>
         <item>
-            <title>Rezervacije</title>
+            <title>Reservations</title>
             <link>https://dzokara.github.io/reservations.html</link>
-            <description>Informacije o mogućim izmenama pri rezervisanju stolova.</description>
+            <description>Informations about the restaurant reservations.</description>
         </item>
     </channel>
 </rss>
