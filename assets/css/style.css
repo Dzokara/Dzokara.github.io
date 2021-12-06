@@ -64,16 +64,16 @@ header nav ul .active{
 }
 /* bg svih strana */
 #indexbg{
-    background-image: url(../images/bgindex.jpg);
+    background-image: url(../images/indexbg.jpg);
 }
 #gallerybg{
-    background-image: url(../images/bg-gallery.jpg);
+    background-image: url(../images/gallerybg.jpg);
 }
 #aboutbg{
-    background-image:url(../images/bgonama.jpg);
+    background-image:url(../images/aboutbg.jpg);
 }
 #menubg{
-    background-image: url(../images/bg-menu.jpg);
+    background-image: url(../images/menubg.jpg);
 }
 #reservationsbg{
     background-image: url(../images/reservationsbg.jpg);
@@ -169,7 +169,7 @@ header nav ul .active{
 /* workhours image */
 #bg-workhours{
     width:100%;
-    background-image: url(../images/bgsati.jpg);
+    background-image: url(../images/workhoursbg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -348,7 +348,7 @@ header nav ul .active{
     background-repeat: no-repeat;
     background-size:24px;
     background-position: 98.7% 50%;
-    background-image:url(../images/ljudi-rezervacija.png);
+    background-image:url(../images/select-bg.png);
 }
 #form1 input[type="date"], #form1 input[type="time"], #form1 textarea{
     width:92.5%;
